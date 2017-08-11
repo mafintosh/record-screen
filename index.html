@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>@mafintosh streams on beaker</title>
+  <style>
+    html, body {
+      padding: 0;
+      margin: 0;
+    }
+
+    h1 {
+      text-align: center;
+      margin: 0;
+      padding: 10px 0;
+    }
+
+    video {
+      padding: 10%;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <script src="hls.min.js"></script>
+  <h1><a href="https://twitter.com/mafintosh">@mafintosh</a> streams on beaker</h1>
+  <video id="video" width="80%"></video>
+  <script>
+    if(Hls.isSupported()) {
+      var video = document.getElementById('video');
+      var hls = new Hls();
+      hls.loadSource('index.m3u8');
+      hls.attachMedia(video);
+      hls.on(Hls.Events.MANIFEST_PARSED,function() {
+        video.play();
+    });
+   }
+  </script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "name": "record-screen",
+  "version": "0.0.0",
+  "description": "WIP - nothing to see here",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mafintosh/record-screen.git"
+  },
+  "author": "Mathias Buus (@mafintosh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mafintosh/record-screen/issues"
+  },
+  "homepage": "https://github.com/mafintosh/record-screen"
+}
