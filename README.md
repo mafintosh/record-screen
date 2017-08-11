@@ -1,16 +1,6 @@
 # record-screen
 
-WIP - nothing to see here
-
-```
-npm install record-screen
-```
-
-## Usage
-
-``` js
-var record-screen = require('record-screen')
-```
+Just some code that records your screen to a dat
 
 ## License
 
