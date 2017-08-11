@@ -1,7 +1,7 @@
 {
   "name": "record-screen",
   "version": "0.0.0",
-  "description": "WIP - nothing to see here",
+  "description": "Just some code that records your screen to a dat",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {},
